@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<!-- Website template by freewebsitetemplates.com -->
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Appointment - Health Calendar</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<!--[if IE 7]>
+		<link rel="stylesheet" href="css/ie7.css" type="text/css">
+	<![endif]-->
+	<!--[if IE 9]>
+		<link rel="stylesheet" href="css/ie9.css" type="text/css">
+	<![endif]-->
+</head>
+<body>
+	<div class="page">
+		<div class="background">
+			<div class="sidebar">
+				<a href="home.html" id="logo"><img src="images/ust_health_service.jpg" width="146px" alt="logo"></a>
+				<ul class="navigation">
+					<li>
+						<a href="Home.html">Home</a>
+					</li>
+					<li>
+						<a href="About.html">About Us</a>
+					</li>
+					<li>
+						<a href="services.html">Services Offered</a>
+					</li>
+					<li class="selected">
+						<a href="schedule.html">Appointment</a>
+					</li>
+					<li>
+						<a href="Contact.html">Contact Us</a>
+					</li>
+				</ul>
+			</div>
+			<div class="body">
+				<div>
+					<div class="figure">
+						<img src="images/health calendar.png" width="790px" height="300px" alt="">
+					</div>
+					<div class="About">
+						<h3>Schedule an Appointment</h3>
+					<iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTz=0&amp;height=300&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=ust-ics.mygbiz.com_3ss52ib1lksrd732ltu89rm1us%40group.calendar.google.com&amp;color=%23AB8B00&amp;ctz=Asia%2FManila" style=" border-width:0 " width="790" height="300" frameborder="0" scrolling="no"></iframe>
+					<br />
+						<form method="post" name="contact" action="thanks.html">
+							<fieldset>
+								<legend>Set an Appointment</legend>
+								<p><label for="author">Name:</label> <input type="text" id="author" name="author" class="required input_field" /><br />
+								<input type="radio" name="sex" value="male" checked>Male<br />
+								<input type="radio" name="sex" value="female">Female<br />
+								<label for="doctor">Doctor:</label>
+									<select name="doc">
+										<option value="Ma">Dra. Olalia</option>
+										<option value="Salve">Dra. Ma. Olalia</option>
+										<option value="Olalia">Dra. Ma. Salve</option>
+										<option value="Dr">Dra. Salve Olalia</option>
+										<option value="Md">Dra. Ma. Salve Olalia</option>
+									</select><br />
+								<label for="date">Chosen Time Slot:</label>
+									<select name="week">
+										<option value="Monday">Monday</option>
+										<option value="Tuesday">Tuesday</option>
+										<option value="Wednesday">Wednesday</option>
+										<option value="Thursday">Thursday</option>
+										<option value="Friday">Friday</option>
+									</select>
+									<select name="Time">
+										<option value="8">8:00 AM - 9:00 AM</option>
+										<option value="9">9:00 AM - 10:00 AM</option>
+										<option value="10">10:00 AM - 11:00 AM</option>
+										<option value="11">11:00 AM - 12:00 AM</option>
+										<option value="12">12:00 AM - 1:00 AM</option>
+										<option value="1">1:00 AM - 2:00 AM</option>
+										<option value="2">2:00 AM - 3:00 AM</option>
+										<option value="3">3:00 AM - 4:00 AM</option>
+										<option value="4">4:00 AM - 5:00 AM</option>
+									</select><br />
+								
+								<label for="email">Email:</label> <input type="text" id="email" name="email" class="validate-email required input_field" /><br />
+								<p><input type="submit" value="Send" id="submit" name="submit" class="submit_btn float_l" />
+								<input type="reset" value="Reset" id="reset" name="reset" class="submit_btn float_r" /><br /></p>
+							</fieldset>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<div>
+				<div>
+					<div>
+						<h3>Information</h3>
+						<ul>
+							<li>
+								<h4>Service Hours</h4>
+								<h3>Mondays to Fridays</h3>
+								<p>8:00 AM - 5:00 PM</p>
+							</li>
+							<li>
+								<h4>Location</h4>
+								<p>UST Health Service</p>
+								<p>Espana, Manila, Philippines</p>
+							</li>
+						</ul>
+					</div>
+					<div>
+						<h3>Administrator</h3>
+						<p>Ma. Salve C. Olalia, M.D., Director</p>
+						<h3>Designed By</h3>
+						<p><strong>Jonelle Isabel C. Belen</strong></p>
+					</div>
+					<div class="connect">
+						<div id="facebook">
+							<a href="http://www.ust.edu.ph">facebook</a>
+						</div>
+						<div id="twitter">
+							<a href="http://www.eleap.ust.edu.ph">twitter</a>
+						</div>
+					</div>
+				</div>
+				<ul>
+					<li>
+						<a href="Home.html">Home</a>
+					</li>
+					<li>
+						<a href="About.html">About Us</a>
+					</li>
+					<li>
+						<a href="classes.html">Services Offered</a>
+					</li>
+					<li>
+						<a href="schedule.html">Appointment</a>
+					</li>
+					<li>
+						<a href="contact.html">Contact Us</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
